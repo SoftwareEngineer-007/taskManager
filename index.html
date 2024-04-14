@@ -3,9 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <title>Task Manager</title>
 </head>
 <body>
+    
+    <div class="container">
+        <div class="header">
+            <div class="logo"><img src="img/logo.png" width="68" height="23" alt="Project" /></div>
+            <div style="clear: both"></div>
+        </div>
+        
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td class="left-collum-index">
+                    
+                        <h1>Project capabilities -</h1>
+                        <p>Maintain your personal lists, such as grocery shopping, goals, tasks and more. Share lists with friends and view friends' lists.</p>
+                        
+                    
+                    </td>
+                    <td class="right-collum-index">
+                        
+                        <div class="project-folders-menu">
+                            <ul class="project-folders-v">
+                            <li class="project-folders-v-active"><span>Sign-in</span></li>
+                            <li><a href="#">Sign-up</a></li>
+                            <li><a href="#">Forgot your password?</a></li>
+                            </ul>
+                        <div style="clear: both;"></div>
+                        </div>
+                        <div class="index-auth">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td class="iat">Your e-mail: <br /> <input id="login_id" size="30" name="login" /></td>
+                                </tr>
+                                <tr>
+                                    <td class="iat">Your password: <br /> <input id="login_id" size="30" name="login" /></td>
+                                </tr>
+                                <tr>
+                                    <td><input type="button" value="Login" /></td>
+                                </tr>
+                            </table>
+                        </div>
+                    
+                    </td>
+                </tr>
+            </table>
+        
+        <div class="footer">&copy;&nbsp;<nobr>2024</nobr> AlexProject</div>
+    </div>
     
 </body>
 </html>
