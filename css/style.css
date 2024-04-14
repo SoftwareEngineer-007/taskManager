@@ -60,7 +60,7 @@ a:hover {
 .top-menu li {
 	list-style: none;
 	float: left;
-	background: url(img/top-menu-bg.gif) bottom repeat-x #efefef;
+	background: url('img/top-menu-bg.gif') bottom repeat-x #efefef;
 	margin: 0px 3px 0px 0px;
 	padding: 0px;
 }
@@ -76,7 +76,7 @@ a:hover {
 	text-decoration: none;
 	display: block;
 	color: #fff;
-	background: url(img/fl-bg-hover.gif) bottom repeat-x #67bdff;
+	background: url('img/fl-bg-hover.gif') bottom repeat-x #67bdff;
 }
 .top-menu-active span {
 	padding: 6px 10px;
@@ -126,7 +126,7 @@ a:hover {
 
 
 .notes {
-	background: url(img/quote-bc.gif) #fff;
+	background: url('img/quote-bc.gif') #fff;
 	margin: 0px 0px 4px 0px;
 	padding: 6px;
 	border: solid 1px #CCC;
@@ -138,7 +138,7 @@ a:hover {
 }
 
 .add {
-	background: url(img/add-bg.gif) bottom repeat-x #f6f6f6;
+	background: url('img/add-bg.gif') bottom repeat-x #f6f6f6;
 	margin:0px;
 	padding:10px;
 }
@@ -194,7 +194,7 @@ a:hover {
 .panel {
 	margin: 0px;
 	padding: 7px 3px;
-	background: url(img/panel-bg.gif) bottom repeat-x #fff;
+	background: url('img/panel-bg.gif') bottom repeat-x #fff;
 	border-bottom: solid 1px #eeeeee;
 	text-align: right;
 }
@@ -204,12 +204,12 @@ a:hover {
 	border: solid 1px #e6e6e6;
 	text-decoration: none;
 	color: #666666;
-	background: url("img/button-bc.gif") repeat-x scroll center bottom #EFEFEF;
+	background: url('img/button-bc.gif') repeat-x scroll center bottom #EFEFEF;
 	font-size: .9em;
 }
 .panel a:hover {
 	color: #ffffff;
-	background: url("img/button-bc-hover.gif") repeat-x scroll center bottom #EFEFEF;
+	background: url('img/button-bc-hover.gif') repeat-x scroll center bottom #EFEFEF;
 }
 .filter-table {
 	margin: 0px;
@@ -335,11 +335,11 @@ a:hover {
 .folder-list-menu li a:hover {
 	text-decoration: none;
 	color: #fff;
-	background: url(img/fl-bg-hover.gif) bottom repeat-x #67bdff;
+	background: url('img/fl-bg-hover.gif') bottom repeat-x #67bdff;
 }
 .folder-list-menu-active span {
 	color: #fff !important;
-	background: url(img/fl-bg-hover.gif) bottom repeat-x #67bdff;
+	background: url('img/fl-bg-hover.gif') bottom repeat-x #67bdff;
 }
 
 .folderadd {
@@ -365,7 +365,7 @@ a:hover {
 .footer a {color: #fff;}
 .footer a:hover {color: #CCC;}
 
-.project-container {margin: 0px; padding: 10px;background: url(img/add-bg.gif) bottom repeat-x #f6f6f6;}
+.project-container {margin: 0px; padding: 10px;background: url('img/add-bg.gif') bottom repeat-x #f6f6f6;}
 .project-container h1 {font-size: 1.6em; font-weight: normal; margin: 0px 0px 3px 0px; padding: 0px;}
 
 .project-list-edit {margin: 0px; padding: 10px;}
@@ -377,14 +377,14 @@ a:hover {
 .inf a:hover{color: #00a0de; border-bottom: 1px dashed #00a0de;}
 
 .project-menu {float: right; margin: 10px 0px 10px 10px; padding: 0px;}
-.project-menu a{text-decoration: none; font-size: .9em; padding: 5px; border: solid 1px #e6e6e6; color: #999; background: url("i/button-bc.gif") repeat-x scroll center bottom #EFEFEF;}
-.project-menu a:hover {background: url(img/button-bc-hover.gif) bottom repeat-x #333333; color: #fff;}
+.project-menu a{text-decoration: none; font-size: .9em; padding: 5px; border: solid 1px #e6e6e6; color: #999; background: url('img/button-bc.gif') repeat-x scroll center bottom #EFEFEF;}
+.project-menu a:hover {background: url('img/button-bc-hover.gif') bottom repeat-x #333333; color: #fff;}
 
 .project-vkladki {margin: 0px; padding:0px;}
 .project-vkladki li {
 	list-style: none;
 	float: left;
-	background: url(img/project-v.gif) bottom repeat-x #f8f8f7;
+	background: url('img/project-v.gif') bottom repeat-x #f8f8f7;
 	margin: 0px 3px 0px 0px;
 	padding: 0px;
 }
@@ -400,14 +400,14 @@ a:hover {
 	text-decoration: none;
 	display: block;
 	color: #999999;
-	background: url(img/project-v-hover.gif) bottom repeat-x #dbdbdb;
+	background: url('img/project-v-hover.gif') bottom repeat-x #dbdbdb;
 }
 .project-vkladki-active span {
 	padding: 6px 10px;
 	text-decoration: none;
 	display: block;
 	color: #333;
-	background: url(img/project-v-active.gif) top repeat-x #ffffff;
+	background: url('img/project-v-active.gif') top repeat-x #ffffff;
 }
 .project-v {border: none; margin: 10px 0px 0px 0px;}
 
@@ -592,7 +592,7 @@ a:hover {
 
 .page-number {
 	padding: 10px;
-	background: url(img/page-nav-bc.gif) bottom repeat-x #efefef;
+	background: url('img/page-nav-bc.gif') bottom repeat-x #efefef;
 }
 .page-number a {
 	margin: 0px;
@@ -607,7 +607,7 @@ a:hover {
 	padding: 10px;
 	text-align: right;
 	width: 200px;
-	background: url(img/page-nav-bc.gif) bottom repeat-x #efefef;
+	background: url('img/page-nav-bc.gif') bottom repeat-x #efefef;
 }
 
 .edit-info-page {
